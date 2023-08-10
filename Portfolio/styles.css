@@ -1,0 +1,53 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 8;
+    padding: 12;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #19927e;
+}
+
+header {
+    background-color: #180303;
+    color: #f3ef08;
+    text-align:left;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: right;
+    background-color: #444;
+    padding: 0.5rem;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 2rem;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 1rem;
+}
